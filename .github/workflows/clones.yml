@@ -33,4 +33,4 @@ jobs:
 
     # Deploy App to Surge
       - name: Deploying Project to Surge
-        run: surge ./ clones.surge.sh --token ${{ secrets.SURGE_TOKEN_CLONE }}
+        run: surge ./ dsclone.surge.sh --token ${{ secrets.SURGE_TOKEN_CLONE }}
